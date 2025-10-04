@@ -28,6 +28,8 @@ if num == '1':
 elif num == '2':
   fahrenheit_c = (temperature - 32) * 5/9  
   print(f'{temperature} degrees Fahrenheit is {fahrenheit_c} degrees Celsius.')
+else:
+  print('Invalid choice.')
 ########### END YER CODE ABOVE THIS LINE ###########
 
     
