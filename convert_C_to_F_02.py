@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: OCTAVIA CORNWALL
+# DATE: OCTOBER 4, 2025
+# BRIEF DESCRIPTION: CONVERT_C_TO_F
 
 
 
@@ -14,16 +14,21 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+print('===== Temperature Converter =====')
+print('')
+print(' ''1. Convert from Celsius to Farenheit')
+print(' ''2. Convert from Farenheit to Celsius')
+print('')
+num = (input('Please choose from the above menu: '))
+temperature = float(input('Enter a temperature to convert: '))
 
+celsius_f = temperature * 9/5 + 32
+farenheit_c = (temperature - 32) * 5/9
 
-
-
-
-
-
-
-
-
+if num == '1':
+  print(f'{temperature} degrees Celsius is {celsius_f} degrees Farenheit.')
+elif num == '2':  
+  print(f'{temperature} degrees Farenheit is {farenheit_c} degrees Celsius.')
 ########### END YER CODE ABOVE THIS LINE ###########
 
     
