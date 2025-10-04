@@ -24,7 +24,7 @@ temperature = float(input('Enter a temperature to convert: '))
 
 celsius_f = temperature * 9/5 + 32
 farenheit_c = (temperature - 32) * 5/9
-
+print('')
 if num == '1':
   print(f'{temperature} degrees Celsius is {celsius_f} degrees Fahrenheit.')
 elif num == '2':  
