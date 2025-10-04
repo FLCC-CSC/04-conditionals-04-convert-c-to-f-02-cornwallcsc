@@ -15,20 +15,20 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 print('===== Temperature Converter =====')
-print('')
-print(' ''1. Convert from Celsius to Fahrenheit')
-print(' ''2. Convert from Fahrenheit to Celsius')
-print('')
+print()
+print(' 1. Convert from Celsius to Fahrenheit')
+print(' 2. Convert from Fahrenheit to Celsius')
+print()
 num = (input('Please choose from the above menu: '))
 temperature = float(input('Enter a temperature to convert: '))
 
-celsius_f = temperature * 9/5 + 32
-farenheit_c = (temperature - 32) * 5/9
 print('')
 if num == '1':
+  celsius_f = temperature * 9/5 + 32
   print(f'{temperature} degrees Celsius is {celsius_f} degrees Fahrenheit.')
-elif num == '2':  
-  print(f'{temperature} degrees Fahrenheit is {farenheit_c} degrees Celsius.')
+elif num == '2':
+  fahrenheit_c = (temperature - 32) * 5/9  
+  print(f'{temperature} degrees Fahrenheit is {fahrenheit_c} degrees Celsius.')
 ########### END YER CODE ABOVE THIS LINE ###########
 
     
