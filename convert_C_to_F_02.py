@@ -16,8 +16,8 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 print('===== Temperature Converter =====')
 print('')
-print(' ''1. Convert from Celsius to Farenheit')
-print(' ''2. Convert from Farenheit to Celsius')
+print(' ''1. Convert from Celsius to Fahrenheit')
+print(' ''2. Convert from Fahrenheit to Celsius')
 print('')
 num = (input('Please choose from the above menu: '))
 temperature = float(input('Enter a temperature to convert: '))
@@ -26,9 +26,9 @@ celsius_f = temperature * 9/5 + 32
 farenheit_c = (temperature - 32) * 5/9
 
 if num == '1':
-  print(f'{temperature} degrees Celsius is {celsius_f} degrees Farenheit.')
+  print(f'{temperature} degrees Celsius is {celsius_f} degrees Fahrenheit.')
 elif num == '2':  
-  print(f'{temperature} degrees Farenheit is {farenheit_c} degrees Celsius.')
+  print(f'{temperature} degrees Fahrenheit is {farenheit_c} degrees Celsius.')
 ########### END YER CODE ABOVE THIS LINE ###########
 
     
@@ -97,7 +97,7 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-
+Remember to cast as a float.
 
 
 
